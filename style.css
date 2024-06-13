@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero_image {
     height: 150px;
-    width: 1000px;
+    width: 750px;
     z-index: -1;
     position: relative;
 }
@@ -121,5 +121,19 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     transform: translate(-110%, 20%);
     filter: blur(75px); /* Apply a layer blur effect */
+    z-index: -5;
+}
+
+.circle3 {
+    width: 800px;
+    height: 250px;
+    border-radius: 50%; /* Make it a circle */
+    background-color: #315BD6;
+    opacity: 0.36;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 60%);
+    filter: blur(19px); /* Apply a layer blur effect */
     z-index: -5;
 }
