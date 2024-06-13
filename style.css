@@ -137,3 +137,37 @@ h1, h2, h3, h4, h5, h6 {
     filter: blur(19px); /* Apply a layer blur effect */
     z-index: -5;
 }
+
+.herobuttons_container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 20px; /* Space between the boxes */
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the container */
+}
+
+.herobuttons {
+    width: 220px;
+    height: 60px;
+    border-radius: 50px; /* Rounded corners to the max */
+    z-index: 2;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+}
+
+.herobuttons.filled {
+    background: linear-gradient(to bottom, #1C337F, #2E52CA); /* Gradient fill */
+}
+
+.herobuttons.outlined {
+    border: 5px solid #315BD6; /* Thick stroke */
+    background-color: transparent; /* No fill */
+}
+
+.herobuttons-text {
+    font-weight: bold;
+    color: #FFFFFF; /* Adjust text color for visibility */
+}
